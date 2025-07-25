@@ -182,14 +182,76 @@ header {
     display: flex;
     background-color: #f4f4f4;
     width: 100vw;
-    height: 600px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .quotewrap{
     display: flex;
+    flex-direction: column;
     height: 300px;
-    width: 800px;
-    background-color: red;
+    width: 650px;
+    justify-content: center;
+}
+
+.mainquote{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0px;
+}
+
+.subquote{
+    font-size: 24px;
+    text-align: right;
+    margin: 0px;
+}
+
+.CTA{
+    display: flex;
+    width: 950px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.CTAcontent{
+    display: flex;
+    gap: 10px;
+    width: 700px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CTAtext{
+    color: white;
+}
+
+.CTAbutton{
+    width: 100px;
+    height: 30px;
+    background-color:#3882F6;
+    border-color: white;
+    border-style: solid;
+    border-radius: 6px;
+    color: white;
+}
+.subtext{
+    font-weight: 100;
+}
+
+footer{
+    background-color:  #1f2937;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 100;
 }
